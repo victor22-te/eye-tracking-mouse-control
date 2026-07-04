@@ -6,11 +6,11 @@ Sistema de control de mouse utilizando visión artificial y seguimiento ocular. 
 
 | Gesto | Acción |
 |-------|--------|
-| 🔄 Mover la cabeza | Mover el cursor del mouse |
-| 😉 Guiñar ojo izquierdo | Click izquierdo |
-| 😉 Guiñar ojo derecho | Click derecho |
-| 😑 Doble parpadeo rápido | Doble click |
-| 😴 Cerrar ambos ojos por 1 segundo | Captura de pantalla (Screenshot) |
+|  Mover la cabeza | Mover el cursor del mouse |
+|  Guiñar ojo izquierdo | Click izquierdo |
+|  Guiñar ojo derecho | Click derecho |
+|  Doble parpadeo rápido | Doble click |
+|  Cerrar ambos ojos por 1 segundo | Captura de pantalla (Screenshot) |
 
 ## 📋 Requisitos
 
@@ -142,6 +142,11 @@ Proyecto Mouse Ocular/
 2. **Posición**: Siéntate frente a la cámara con la cara bien visible
 3. **Calibración**: Al iniciar, mira al centro de la pantalla para una mejor calibración
 4. **Recalibrar**: Si el cursor no sigue bien, presiona `C` para recalibrar
+
+## Autores
+
+* ### **Victor Francisco Villafaña Hernández**
+* ### **Edgar Cortes Garcia**
 
 ## 🤝 Contribuir
 
