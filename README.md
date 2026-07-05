@@ -4,8 +4,6 @@
 ![OpenCV](https://img.shields.io/badge/opencv-%23white.svg?logo=opencv&logoColor=white)
 ![MediaPipe](https://img.shields.io/badge/mediapipe-%2304859B.svg?logo=google&logoColor=white)
 
-**Topics**: `#python` `#computer-vision` `#eye-tracking` `#accessibility` `#opencv` `#mediapipe` `#mouse-control`
-
 Sistema de control de mouse utilizando visión artificial y seguimiento ocular. Permite mover el cursor con los movimientos de la cabeza y realizar clicks mediante gestos de parpadeo.
 
 ## 📸 Demostración
