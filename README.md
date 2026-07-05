@@ -1,6 +1,16 @@
 # 🖱️ Mouse Ocular - Control de Mouse con Seguimiento de Ojos
 
+![Python](https://img.shields.io/badge/python-3.8+-blue.svg)
+![OpenCV](https://img.shields.io/badge/opencv-%23white.svg?logo=opencv&logoColor=white)
+![MediaPipe](https://img.shields.io/badge/mediapipe-%2304859B.svg?logo=google&logoColor=white)
+
+**Topics**: `#python` `#computer-vision` `#eye-tracking` `#accessibility` `#opencv` `#mediapipe` `#mouse-control`
+
 Sistema de control de mouse utilizando visión artificial y seguimiento ocular. Permite mover el cursor con los movimientos de la cabeza y realizar clicks mediante gestos de parpadeo.
+
+## 📸 Demostración
+
+![Screenshot de Mouse Ocular](assets/screenshot.png)
 
 ## ✨ Características
 
@@ -113,8 +123,9 @@ self.CLICK_COOLDOWN = 0.5  # segundos
 
 ## 📁 Estructura del Proyecto
 
-```
+```text
 Proyecto Mouse Ocular/
+├── assets/                # Imágenes y recursos del proyecto
 ├── venv/                  # Entorno virtual de Python
 ├── mouse_ocular.py        # Programa principal
 ├── requirements.txt       # Dependencias
