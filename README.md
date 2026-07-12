@@ -1,4 +1,4 @@
-# 🖱️ Mouse Ocular - Control de Mouse con Seguimiento de Ojos
+# Mouse Ocular - Control de Mouse con Seguimiento de Ojos
 
 ![Python](https://img.shields.io/badge/python-3.8+-blue.svg)
 ![OpenCV](https://img.shields.io/badge/opencv-%23white.svg?logo=opencv&logoColor=white)
@@ -10,7 +10,7 @@ Sistema de control de mouse utilizando visión artificial y seguimiento ocular. 
 
 ![Screenshot de Mouse Ocular](assets/screenshot.png)
 
-## ✨ Características
+## Características
 
 | Gesto | Acción |
 |-------|--------|
@@ -20,13 +20,13 @@ Sistema de control de mouse utilizando visión artificial y seguimiento ocular. 
 |  Doble parpadeo rápido | Doble click |
 |  Cerrar ambos ojos por 1 segundo | Captura de pantalla (Screenshot) |
 
-## 📋 Requisitos
+## Requisitos
 
 - Python 3.8 o superior
 - Webcam funcional
 - Windows 10/11
 
-## 🚀 Instalación
+## Instalación
 
 ### 1. Crear y activar entorno virtual
 
@@ -50,7 +50,7 @@ source venv/bin/activate
 pip install -r requirements.txt
 ```
 
-## 🎮 Uso
+## Uso
 
 ### Ejecutar el programa
 
@@ -69,7 +69,7 @@ python mouse_ocular.py
 | `C` | Recalibrar posición (mira al centro de la pantalla) |
 | `Q` | Salir del programa |
 
-## ⚙️ Configuración
+## Configuración
 
 Puedes ajustar los siguientes parámetros en el archivo `mouse_ocular.py`:
 
@@ -94,7 +94,7 @@ self.DOUBLE_BLINK_THRESHOLD = 0.7  # segundos
 self.CLICK_COOLDOWN = 0.5  # segundos
 ```
 
-## 🔧 Solución de Problemas
+## Solución de Problemas
 
 ### El cursor se mueve erráticamente
 - Recalibra presionando `C` mientras miras al centro de la pantalla
@@ -119,7 +119,7 @@ self.CLICK_COOLDOWN = 0.5  # segundos
 - Verifica que tienes permisos de escritura en la carpeta del proyecto
 - Los screenshots se guardan en el mismo directorio que `mouse_ocular.py`
 
-## 📁 Estructura del Proyecto
+## Estructura del Proyecto
 
 ```text
 Proyecto Mouse Ocular/
@@ -131,21 +131,21 @@ Proyecto Mouse Ocular/
 └── screenshot_*.png       # Screenshots capturados (se generan al usar la función)
 ```
 
-## 🛠️ Tecnologías Utilizadas
+## Tecnologías Utilizadas
 
 - **OpenCV**: Captura de video y detección de rostro/ojos con Haar Cascades
 - **PyAutoGUI**: Control del mouse y capturas de pantalla
 - **NumPy**: Cálculos numéricos para suavizado
 - **Screeninfo**: Obtención de dimensiones de la pantalla
 
-## 📝 Cómo funciona
+## Cómo funciona
 
 1. **Detección de rostro**: Se usa un clasificador Haar Cascade para detectar el rostro en cada frame.
 2. **Detección de ojos**: Se divide la región del rostro y se buscan los ojos usando clasificadores especializados.
 3. **Seguimiento**: El centro del rostro se mapea a coordenadas de pantalla con suavizado.
 4. **Gestos**: Se detectan transiciones en el estado de los ojos (abierto→cerrado) para generar acciones.
 
-## 💡 Tips para mejor funcionamiento
+## Tips para mejor funcionamiento
 
 1. **Iluminación**: Asegúrate de tener luz frontal, evita contraluz
 2. **Posición**: Siéntate frente a la cámara con la cara bien visible
@@ -157,10 +157,10 @@ Proyecto Mouse Ocular/
 * ### **Victor Francisco Villafaña Hernández**
 * ### **Edgar Cortes Garcia**
 
-## 🤝 Contribuir
+## Contribuir
 
 ¡Las contribuciones son bienvenidas! Siéntete libre de abrir issues o pull requests.
 
-## 📄 Licencia
+## Licencia
 
 Este proyecto está bajo la Licencia MIT.
